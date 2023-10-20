@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-vyfe
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0007-tenant/ci1t-830-0007-app/devfile-sample-vyfe@sha256:f97292ef4e8cecd7077b7eed724c5f5b77b2bb8201a5086d2110642d172bb1c5
         name: my-nodejs
         ports:
         - containerPort: 3001
